@@ -1,0 +1,24 @@
+a:link,
+a:visited {
+    color: rgb(0, 221, 255);
+    font-weight: bold;
+}
+
+a:hover {
+    color:rgb(57, 57, 57);
+}   
+
+article p::first-line {
+    font-size: 100%;
+    font-style: italic;
+}   
+ 
+article p:first-child {
+    font-size: 120%;
+    font-weight: bold;
+} 
+footer {
+      font-size: 50%;
+    font-style: italic;
+}
+p { text-indent: 20px; }
